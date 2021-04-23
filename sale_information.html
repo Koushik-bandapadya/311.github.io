@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="allcss.css">
+	<title>Sale</title>
+</head>
+
+<body>
+	<form action = "sales_details_fillup.php" method= "post">
+	<section class='bg-primary'>
+	<article class='py-5 text-center text-white'>
+	 	<div>
+	 		<h3 class='display-4 text-white'>Please fill up the information before sale</h3>
+             
+	 	</div>
+	</article>
+</section>
+<br>
+	
+	<div class="text-center">
+	<br>
+	<br>
+	<p>
+		<label for= "date" class="btn btn-dark">‏‏‎ ‎Sale Date:</label>
+		<input type="date" id="date" name="date" required>
+	</p>
+	<p>
+		<label for= "customerName" class="btn btn-dark">‏‏‎ ‎Customer Name:</label>
+		<input type= "text" name= "customer_name" id=customerName required>
+	</p>
+	<p>
+		<label for= "phoneNumber" class="btn btn-dark">‏‏‎ ‎Phone Number:</label>
+		<input type= "text" name= "phone_number" id=phoneNumber>
+	</p>
+	
+	<p>
+		<input type= "submit" class="btn btn-warning" value = "‏‏‎ ‎Submit">
+	</p>
+	</div>
+		
+	</form>
+</body>
+</html>
